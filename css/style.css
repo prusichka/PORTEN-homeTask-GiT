@@ -505,7 +505,6 @@ main {
   margin: 1rem 0 0;
 }
 
-
 .demo__slide h3 {
   font-family: Playfair Display;
   font-style: normal;
@@ -1164,7 +1163,7 @@ form button {
     width: 100%;
   }
   .about-shop h2 {
-    font-size: 1rem;
+    font-size: 1.5rem;
     line-height: 1.5rem;
     margin-bottom: 20px;
     text-align: center;
