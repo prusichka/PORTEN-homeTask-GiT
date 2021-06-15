@@ -4,6 +4,9 @@ new Swiper(".slider ", {
 new Swiper(".sliderTwo ", {
   loop: true,
 });
+new Swiper(".slider3 ", {
+  loop: true,
+});
 
 const burger = document.querySelector(".menu");
 const mobileMenu = document.querySelector("#toggle");

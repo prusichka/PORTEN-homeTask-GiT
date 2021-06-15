@@ -385,7 +385,7 @@ main {
 }
 
 .new-season__left .title {
-  font-size: 1.7rem;
+  font-size: 2.25rem;
   font-family: "Playfair Display", sans-serif;
   font-weight: 700;
   color: white;
@@ -442,8 +442,25 @@ main {
   font-family: "Playfair Display", sans-serif;
   font-weight: 400;
   margin: 1rem 0 0;
-  padding-right: 200px;
+  padding-right: 190px;
 }
+.text-mobile h3 {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.text-mobile h4 {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #d0d0d0;
+}
+
 .demo__slide-mobile h3 {
   font-size: 1rem;
 }
@@ -488,19 +505,23 @@ main {
   margin: 1rem 0 0;
 }
 
-.demo__slide .text * {
-  color: white;
-  font-family: "Playfair Display", sans-serif;
-  font-weight: 400;
-}
 
 .demo__slide h3 {
-  font-size: 1rem;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
 }
 
 .demo__slide h4 {
-  font-size: 0.85rem;
-  font-weight: 700;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #d0d0d0;
 }
 
 @media only screen and (max-width: 1023px) {
@@ -516,7 +537,7 @@ main {
   }
 
   .new-season__left .title {
-    font-size: 2.3rem;
+    font-size: 2rem;
     text-align: center;
     width: auto;
   }
@@ -651,7 +672,7 @@ main {
 .old-colection-right-title {
   font-family: "Playfair Display";
   font-weight: 400;
-  font-size: 2rem;
+  font-size: 2.25rem;
   text-transform: uppercase;
   margin-bottom: 2rem;
 }
@@ -668,7 +689,7 @@ main {
   font-weight: normal;
   text-align: center;
   margin-bottom: 4rem;
-  font-size: 1rem;
+  font-size: 0.875rem;
 }
 .look-colection-right {
   border: 1px solid white;
@@ -779,39 +800,28 @@ main {
   width: 100%;
   max-width: 1920px;
 }
-@media only screen and (max-width: 1024px) {
-  #list-two {
-    display: none;
-  }
-  #list-one {
-    display: none;
-  }
-  .new-clock {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding: 5rem 0;
-  }
-  .mobile {
-    display: flex;
-    flex-direction: row;
-  }
-  .new-clock-title {
-    font-weight: 500;
-    font-size: 1rem;
-  }
-  .sliderTwo {
-    display: flex;
-    /* flex-direction: row;
-    align-content: center; */
-  }
-}
 .text-mobile2 {
   color: white;
   font-family: "Playfair Display", sans-serif;
   font-weight: 400;
   margin: 1rem 0 0;
-  padding-right: 130px;
+  padding-right: 115px;
+}
+.text-mobile2 h4 {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #d0d0d0;
+}
+.text-mobile2 h3 {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
 }
 .img__wrapper {
   display: flex;
@@ -833,7 +843,7 @@ main {
 .new-clock-title {
   font-family: "Playfair Display";
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 2.25rem;
   color: white;
   text-align: center;
   width: 100%;
@@ -862,6 +872,34 @@ main {
   justify-content: space-around;
   margin-top: 40px;
 }
+
+@media only screen and (max-width: 1024px) {
+  #list-two {
+    display: none;
+  }
+  #list-one {
+    display: none;
+  }
+  .new-clock {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5rem 0;
+  }
+  .mobile {
+    display: flex;
+    flex-direction: row;
+  }
+  .new-clock-title {
+    font-weight: 500;
+    font-size: 1.8rem;
+  }
+  .sliderTwo {
+    display: flex;
+    /* flex-direction: row;
+    align-content: center; */
+  }
+}
 /* __new clock__ */
 
 /* __brands__ */
@@ -874,7 +912,7 @@ main {
 .brands h2 {
   font-family: "Playfair Display";
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 2.25rem;
   color: white;
   text-transform: uppercase;
   margin-bottom: 2rem;
@@ -894,7 +932,9 @@ main {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  margin: 0 -1%;
+  justify-content: space-between;
+  margin: 0 1%;
+  max-width: 1110px;
 }
 .brands-content img {
   width: 100%;
@@ -904,38 +944,40 @@ main {
   transition: opacity 150ms ease-in;
 }
 .card {
-  flex: 0 1 25%;
-  padding: 0 1%;
-  margin-bottom: 80px;
+  width: 255px;
+  height: 94px;
+  /* margin-bottom: 80px; */
+  display: flex;
+  align-items: center;
+}
+.slider3 {
+  display: none;
+  width: 100%;
+}
+.brands-wrapper {
+  display: flex;
+  align-items: center;
+}
+.brands-slide {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 1023px) {
+  .slider3 {
+    display: flex;
+  }
   .brands-content {
+    display: none;
+  }
+  .brands {
     display: flex;
     flex-direction: column;
-  }
-  .brands h2 {
-    font-size: 1.9rem;
-    margin-top: 20px;
-  }
-  .card {
-    padding: 0 2%;
-    margin-bottom: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .brands-content img {
-    width: 50%;
-  }
-}
-@media screen and (max-width: 570px) {
-  .brands h2 {
-    font-size: 1.5rem;
-    margin-top: 20px;
-  }
-  .brands-content img {
-    width: 50%;
+    width: 100%;
+    padding: 3 rem 0;
   }
 }
 /* __brands__ */
@@ -955,75 +997,6 @@ footer {
 footer .container {
   width: 100%;
   padding: 0 10%;
-}
-@media screen and (max-width: 1500px) {
-  .container-row {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .about-shop {
-    width: 100%;
-  }
-  .about-shop h2 {
-    font-size: 1rem;
-    line-height: 1.5rem;
-    margin-bottom: 20px;
-    text-align: center;
-    margin-left: 30px;
-  }
-  .about-shop span {
-    text-align: center;
-    margin-left: 30px;
-    margin-bottom: 20px;
-  }
-  .list-link {
-    display: flex;
-    flex-direction: column;
-  }
-  .list-link button {
-    width: 300px;
-  }
-  .kategoriy {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 80px;
-  }
-  .kategoriy h2 {
-    margin-bottom: 20px;
-  }
-  .mailing {
-    display: flex;
-  }
-  .mailing h2 {
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  .mailing span {
-    margin-bottom: 20px;
-    text-align: center;
-    margin-left: 30px;
-    padding-right: 20px;
-  }
-  form button {
-    font-size: 0.5rem;
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .container-row {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-  }
-}
-.container-row {
-  padding: 5rem 15%;
-  margin: 0 -1.5%;
-  display: flex;
 }
 
 .container-row > * {
@@ -1179,3 +1152,74 @@ form button {
   text-decoration-line: underline;
   color: #d0d0d0;
 }
+
+@media screen and (max-width: 1500px) {
+  .container-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .about-shop {
+    width: 100%;
+  }
+  .about-shop h2 {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 30px;
+  }
+  .about-shop span {
+    text-align: center;
+    margin-left: 30px;
+    margin-bottom: 20px;
+  }
+  .list-link {
+    display: flex;
+    flex-direction: column;
+  }
+  .list-link button {
+    width: 300px;
+  }
+  .kategoriy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 80px;
+  }
+  .kategoriy h2 {
+    margin-bottom: 20px;
+  }
+  .mailing {
+    display: flex;
+  }
+  .mailing h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .mailing span {
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 30px;
+    padding-right: 20px;
+  }
+  form button {
+    font-size: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .container-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.container-row {
+  padding: 5rem 14%;
+  margin: 0 -1.5%;
+  display: flex;
+}
+/* __footer__ */
