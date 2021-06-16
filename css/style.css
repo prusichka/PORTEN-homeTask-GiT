@@ -41,6 +41,7 @@ header > * {
   }
 }
 
+
 /*___top-line___*/
 .top-line {
   height: 2.5rem;
@@ -716,7 +717,7 @@ main {
   margin: 0px 10px;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1023px) {
   .old-colection {
     flex-direction: column;
     /* height: auto; */
@@ -983,6 +984,21 @@ main {
   justify-content: center;
   align-items: center;
 }
+@media screen and (max-width: 1500px) {
+  .brands {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 6%;
+    background-color: #0f0f0f;
+  }
+  .brands-content{
+    max-width: 1300px;
+    justify-content: space-around;
+  }
+  .card {
+    max-width: 255px;
+  }
+}
 
 @media screen and (max-width: 1023px) {
   .slider3 {
@@ -995,7 +1011,7 @@ main {
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 3 rem 0;
+    padding: 3rem 0;
   }
 }
 /* __brands__ */
@@ -1223,7 +1239,7 @@ form button {
     padding-right: 20px;
   }
   form button {
-    font-size: 0.5rem;
+    font-size: 1rem;
   }
 }
 
