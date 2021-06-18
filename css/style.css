@@ -41,7 +41,6 @@ header > * {
   }
 }
 
-
 /*___top-line___*/
 .top-line {
   height: 2.5rem;
@@ -971,11 +970,10 @@ main {
 }
 .slider3 {
   display: none;
-  width: 100%;
 }
 .brands-wrapper {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
 }
 .brands-slide {
   cursor: pointer;
@@ -991,7 +989,7 @@ main {
     padding: 2rem 6%;
     background-color: #0f0f0f;
   }
-  .brands-content{
+  .brands-content {
     max-width: 1300px;
     justify-content: space-around;
   }
